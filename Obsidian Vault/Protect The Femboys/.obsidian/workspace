@@ -1,0 +1,96 @@
+{
+  "main": {
+    "id": "6c73fbedbe45da0e",
+    "type": "split",
+    "children": [
+      {
+        "id": "c21b4c1d8544934f",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Enemies.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b875459668341896",
+    "type": "split",
+    "children": [
+      {
+        "id": "8db0013331e033e6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "75cac65f8ae2f393",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "a4e171142c85f9a3",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "9568270f6a79b60f",
+    "type": "split",
+    "children": [
+      {
+        "id": "eb0d28cf876e89b0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "65c235a6b1979bd2",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Enemies.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "c21b4c1d8544934f",
+  "lastOpenFiles": [
+    "Enemies.md",
+    "Maps.md",
+    "Game Modes.md",
+    "Untitled.md"
+  ]
+}
