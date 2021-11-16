@@ -1,5 +1,6 @@
 # Maps
 ## Map Info (Name, Style, Etc.)
+- 
 
 ## Buildings on Maps
 - Femboy Hooters
