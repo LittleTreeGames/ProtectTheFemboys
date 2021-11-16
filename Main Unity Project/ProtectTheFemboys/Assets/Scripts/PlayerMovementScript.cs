@@ -60,7 +60,7 @@ public class PlayerMovementScript : MonoBehaviour
 
 
 
-        // Camera Movement        
+        /* Camera Movement        
 
         float mouseX = Input.GetAxis("Mouse X") * mouseSensitivity * Time.deltaTime;
         float mouseY = Input.GetAxis("Mouse Y") * mouseSensitivity * Time.deltaTime;
@@ -76,6 +76,6 @@ public class PlayerMovementScript : MonoBehaviour
         // Rotate Camera Boom on X axis
         BoomArm.Rotate(Vector3.right * -mouseY);
 
-
+        */
     }
 }
