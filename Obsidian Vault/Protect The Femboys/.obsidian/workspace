@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Enemies.md",
+            "file": "Gameplay/Combat.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Enemies.md",
+                "file": "Gameplay/Combat.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -83,14 +83,16 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "active": "c21b4c1d8544934f",
   "lastOpenFiles": [
-    "Enemies.md",
+    "Gameplay/Combat.md",
+    "Gameplay/Interactibles or Items.md",
+    "Gameplay/Player movement.md",
+    "Gameplay/Skills.md",
     "Maps.md",
-    "Game Modes.md",
-    "Untitled.md"
+    "Enemies.md",
+    "Game Modes.md"
   ]
 }
