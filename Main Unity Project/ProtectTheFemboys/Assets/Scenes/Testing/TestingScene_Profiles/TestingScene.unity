@@ -470,9 +470,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cbc347a8ca267874ab91b962079a591a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  controller: {fileID: 1408515540}
+  cam: {fileID: 2092785624}
   speed: 8
-  gravity: -9.81
-  jumpHeight: 3
+  turnSmoothTime: 0.1
 --- !u!4 &1408515538 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7245457042772289001, guid: 391a092a8fc1fef44ae96129c445ac0d, type: 3}
@@ -602,6 +603,10 @@ PrefabInstance:
     - target: {fileID: 6322626204291713363, guid: 391a092a8fc1fef44ae96129c445ac0d, type: 3}
       propertyPath: Target
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6385649120308620397, guid: 391a092a8fc1fef44ae96129c445ac0d, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6385649120308620397, guid: 391a092a8fc1fef44ae96129c445ac0d, type: 3}
       propertyPath: m_Controller
@@ -775,10 +780,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c714ba9a0935dd0469cae906c842c8c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 1941857138}
+  player: {fileID: 1408515530}
   cameraCenter: {fileID: 1992878520}
-  yOffset: 0
-  sensitivity: 0
+  yOffset: 1.2
+  sensitivity: 2
   cam: {fileID: 2092785627}
   camDist: {x: 0, y: 0, z: 0}
   scrollSensitivity: 2

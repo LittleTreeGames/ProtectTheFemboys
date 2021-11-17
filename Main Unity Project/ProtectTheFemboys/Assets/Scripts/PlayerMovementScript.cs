@@ -20,6 +20,15 @@ public class PlayerMovementScript : MonoBehaviour
         float vertical = Input.GetAxisRaw("Vertical");
         Vector3 direction = new Vector3(horizontal, 0f, vertical).normalized;
 
+        if (Input.GetKey("left shift"))
+        {
+            speed = 20f;
+        }
+        else
+        {
+            speed = 12f;
+        }
+        
         if (direction.magnitude >= 0.1f)
         {
             
@@ -31,4 +40,5 @@ public class PlayerMovementScript : MonoBehaviour
             controller.Move(moveDir * speed * Time.deltaTime);
         }
     }
+    
 }
