@@ -476,17 +476,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controller: {fileID: 1408515540}
-  speed: 12
-  gravity: -9.81
-  jumpHeight: 3
-  groundCheck: {fileID: 1096839240}
-  groundDistance: 0.4
-  groundmask:
-    serializedVersion: 2
-    m_Bits: 64
-  player: {fileID: 1408515538}
-  BoomArm: {fileID: 0}
-  mouseSensitivity: 100
+  cam: {fileID: 2092785624}
+  speed: 6
+  turnSmoothTime: 0.1
 --- !u!143 &1408515540
 CharacterController:
   m_ObjectHideFlags: 0
