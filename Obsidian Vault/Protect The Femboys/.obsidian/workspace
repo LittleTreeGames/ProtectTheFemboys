@@ -7,11 +7,8 @@
         "id": "c21b4c1d8544934f",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Maps.md",
-            "mode": "source"
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -68,7 +65,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Maps.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,6 +83,7 @@
   },
   "active": "c21b4c1d8544934f",
   "lastOpenFiles": [
+    "Classes.md",
     "Maps.md",
     "Game Modes.md",
     "Enemies.md",
