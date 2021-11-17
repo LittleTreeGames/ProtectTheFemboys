@@ -7,8 +7,12 @@ public class PlayerMovementScript : MonoBehaviour
 {
     public CharacterController controller;
 
+    public Transform cam;
+
     public float speed = 6f;
 
+    public float turnSmoothTime = 0.1f;
+    float turnSmoothVelocity;
     //update is called every frame
     void Update()
     {
@@ -18,11 +22,13 @@ public class PlayerMovementScript : MonoBehaviour
 
         if (direction.magnitude >= 0.1f)
         {
-            //move the player
-            controller.Move(direction * speed * Time.deltaTime);
-            //rotate the player in direction moving
-            transform.LookAt(transform.position + direction);
+            
+            float targetAngle = Mathf.Atan2(direction.x, direction.z) * Mathf.Rad2Deg + cam.eulerAngles.y;
+            float angle = Mathf.SmoothDampAngle(transform.eulerAngles.y, targetAngle, ref turnSmoothVelocity, turnSmoothTime);
+            transform.rotation = Quaternion.Euler(0f, angle, 0f);
+            //move player
+            Vector3 moveDir = Quaternion.Euler(0f, targetAngle, 0f) * Vector3.forward;
+            controller.Move(moveDir * speed * Time.deltaTime);
         }
-
     }
 }
