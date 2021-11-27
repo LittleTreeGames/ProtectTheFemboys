@@ -1,10 +1,10 @@
 {
   "main": {
-    "id": "6c73fbedbe45da0e",
+    "id": "ae9b4059d46a4641",
     "type": "split",
     "children": [
       {
-        "id": "c21b4c1d8544934f",
+        "id": "a77a4628cc9d0a88",
         "type": "leaf",
         "state": {
           "type": "empty",
@@ -81,7 +81,7 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "c21b4c1d8544934f",
+  "active": "a77a4628cc9d0a88",
   "lastOpenFiles": [
     "Classes.md",
     "Maps.md",
